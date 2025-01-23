@@ -1,0 +1,123 @@
+
+body{
+    font-family:fantasy;
+}
+.page-title {
+    text-align: center;
+    color:white;
+}
+
+.card {
+    width: 20em;
+    height: 35em;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 1em;
+    text-align: center;
+    
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    height: 100%;
+
+}
+
+
+.flip-card-next-card-btn {
+    width:15em;
+    height: 4em;
+    border-radius: 0.5em;
+    border: 1px solid  rgb(95, 79, 240);
+    background-color: rgb(95, 79, 240);
+    text-align: center;
+    color: white;
+    font-size: large;
+
+
+
+
+ }
+
+
+
+.top-level {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.question-position {
+    margin-left: 55%;
+
+}
+.score {
+    margin-left: 20%;
+}
+
+.display {
+    width: 70%;
+    height: 15em;
+    border: 1px solid #ffffff;
+    background-color: white;
+    border-radius: 1em;
+    /* top, left, right */
+    border-width: 0.5px 2px 2px;
+    /*right, bottom, left */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imgs {
+    width: 150px;
+    height: 200px;
+    background-image: url("https://previews.dropbox.com/p/thumb/ACjzoT5cnAQWyGzGWieNYLSbqbScHT7_dI7twApEtLoHz7nEq_mbo9KTrJeONdFMVcXH0uM-aafWrjpnZ2F11P43iOtFy9e1fYVpyAyZfzNVtcsBTq6Stgs6xcTD6zQqD4Ud_xCfFU6M7wmr5mJ3LuDHjw9AgnI_YpRR9WUR79OpcApznBlmTKqF9n_gcwEx1CgI0XF2N05NiqynObNF2nARQ4d_Ux7WD8jE4p5Y-UZGIJi6pIeRdigBQ5DfO_fUUR17K9G1QNG1-SsiH30iAmCsqPZs8IvSnIzNzS5v06mxx7IUIcybvfRC3dEP-8p_TmU/p.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+}
+
+.answers-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+
+}
+
+.option1, .option2, .option3, .option4 {
+    width: 70%;
+    margin-top: 10px;
+    height: 90px;
+    border-radius: 1em;
+    background-color: rgba(74, 17, 131);
+
+
+
+}
+
+
+
+.take-quiz-link {
+    display:flex;
+    align-items: initial;
+    font-size: large;
+}
+
