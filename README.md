@@ -1,2 +1,2 @@
-#Project Name
+## Project Name
 Language Learning Game
